@@ -3,7 +3,7 @@
   "name": "edersonsousa",
   "private": true,
   "version": "0.0.6",
-  "homepage": "https://edersonsousa.github.io/",
+  "homepage": "https://edersonsousa.github.io/edersonsousa.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
