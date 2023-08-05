@@ -33,7 +33,7 @@ export function Hero() {
                         
                                             </div>
                             </div>
-                            <div className="basis-1/2">algooo Div02
+                            <div className="basis-1/2">
                             </div>
 
                     
