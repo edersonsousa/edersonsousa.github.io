@@ -3,10 +3,10 @@ import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
 export function Skills() {
   const educations = [
     {
-      name: "Curso de Desenvolvimento Web Full Stack | Dev Samurai",
+      name: "Engenharia da Computação | UNIVESP",
     },
     {
-      name: "Curso de Desenvolvimento Mobile | Dev Samurai",
+      name: "Análise e Desenvolvimento de Sistemas | FATEC - SP",
     },
   ]
 
@@ -14,22 +14,22 @@ export function Skills() {
     {
       name: "HTML5/CSS3",
       icon: "images/html.svg",
-      level: 95,
+      level: 65,
     },
     {
       name: "JavaScript",
       icon: "images/javascript.svg",
-      level: 90,
+      level: 43,
     },
     {
       name: "React.js",
       icon: "images/react.svg",
-      level: 85,
+      level: 33,
     },
     {
       name: "Node.js",
       icon: "images/nodejs.svg",
-      level: 65,
+      level: 15,
     },
   ]
 
@@ -46,8 +46,7 @@ export function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Front-end Developer | React.js | React Native | Node.js | TypeScript
-            | JavaScript
+            Análise e Desenvolvimentos de Sistemas | Engenharia da Computação | Linux
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
