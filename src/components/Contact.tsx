@@ -43,20 +43,20 @@ export function Contact() {
   const contacts = [
     {
       name: "WhatsApp",
-      description: "+55 12 9.999-9999",
+      description: "+55 11 9.7676-5339",
       link: "https://wa.me/5511976765339?text=Olá...",
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
       name: "Email",
-      description: "joao-test@testemail.com",
-      link: "mailto:joao-test@testemail.com?subject=Olá...",
+      description: "ederson.sousadasilva@gmail.com",
+      link: "mailto:ederson.sousadasilva@gmail.com?subject=Olá...",
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
-      name: "São José dos Campos",
-      description: "Centro, 123",
-      link: "https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt",
+      name: "São Paulo",
+      description: "Centro, Luz",
+      link: "https://www.google.com/maps/place/Luz,+S%C3%A3o+Paulo+-+SP/@-23.527746,-46.6414066,15z/data=!3m1!4b1!4m6!3m5!1s0x94ce588ab30c3ef5:0x75a3f2fdf04782d7!8m2!3d-23.5294565!4d-46.6291504!16s%2Fg%2F1hc0hrrb6?entry=ttu",
       icon: <HiOutlineMapPin className="h-10 w-10" />,
     },
   ]

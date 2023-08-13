@@ -19,9 +19,7 @@ export function Hero() {
                                             <p className="text-gray-600 my-6 text-center md:text-left">
                                                     Movido por desafios e apaixonado por encontrar soluções inovadoras que tragam 
                                                     valor real para as empresas e, consequentemente, para a sociedade. 
-                                                    Uma combinação única de habilidades técnicas e visão de negócios 
-                                                    possibilita uma posição estratégica para impulsionar a transformação digital e
-                                                    o progresso tecnológico nas organizações em que atua.
+                                                    
                                             </p>
                                             <div className="flex items-center justify-center md:justify-start gap-2">
                                                 <a href="#contact" className="underline font-bold text-white">Fale Comigo </a>

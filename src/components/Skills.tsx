@@ -8,6 +8,26 @@ export function Skills() {
     {
       name: "Análise e Desenvolvimento de Sistemas | FATEC - SP",
     },
+
+    {
+      name: "[ LPI 101 ] Administração de Sistemas LINUX | Green Treinamento",
+    },
+    {
+      name: "[ LPI 102 ] Administração de Redes LINUX | Green Treinamento",
+    },
+    {
+      name: "[ LPI 201 ] Administração de Sistemas Linux Avançado | Green Treinamento",
+    },
+    {
+      name: "[ LPI 202 ] Administração de Redes Linux Avançado | Green Treinamento",
+    },
+    {
+      name: "Firewall - Segurança em Linux | Green Treinamento",
+    },
+    {
+      name: "SAMBA – Compartilhando Recursos no Linux | Green Treinamento",
+    },
+
   ]
 
   const skills = [
@@ -24,12 +44,12 @@ export function Skills() {
     {
       name: "React.js",
       icon: "images/react.svg",
-      level: 33,
+      level: 22,
     },
     {
       name: "Node.js",
       icon: "images/nodejs.svg",
-      level: 15,
+      level: 10,
     },
   ]
 

@@ -7,8 +7,9 @@ export function About() {
               <span className="font-handwriting text-4xl">Min</span>
             </h2>
             <p className="relative text-sm text-gray-600">
-                Tenho.....
-            </p>
+            Uma combinação única de habilidades técnicas e visão de negócios 
+                                                    possibilita uma posição estratégica para impulsionar a transformação digital e
+                                                    o progresso tecnológico nas organizações em que atua.            </p>
                   <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40">
                   </div>
           </div>
@@ -37,7 +38,7 @@ export function About() {
                       href="tel:+5511976765339"
                       className="underline hover:text-blue-800"
                     >
-                      +55 11 9.7676-5339
+                      +55 11 97676-5339
                     </a>
                   </td>
                 </tr>
@@ -50,7 +51,7 @@ export function About() {
                       href="mailto:ederson.sousadasilva@gmail.com"
                       className="underline hover:text-blue-800"
                     >
-                      ederson.sousadasilva@gmail.com
+                      ederson.sousadasilva
                     </a>
                   </td>
                 </tr>
@@ -82,9 +83,13 @@ export function About() {
               </tbody>
             </table>
               </div>      
-              <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-[url(images/ed.svg)]
-                                     bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"> 
-                                
+              <div className="absolute -left-2 -top-4 h-20 w-20 rounded-lg display: flex
+                            bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"> 
+                                <img
+                              className="rounded-lg"
+                              src="images/ed.svg"
+                              alt="Ederson Sousa"
+                                  />
               </div>
               
             </div>

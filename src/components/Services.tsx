@@ -1,8 +1,11 @@
 import {
   HiCommandLine,
   HiComputerDesktop,
-  HiDevicePhoneMobile,
+  
+  //HiDevicePhoneMobile,
 } from "react-icons/hi2"
+
+//import { DiCodeigniter } from "react-icons/di"
 
 export function Services() {
   const services = [
@@ -14,14 +17,20 @@ export function Services() {
     },
     {
       title: "Sistemas",
-      description: "Desenvolvimento de sistemas e APIs REST com Node.js.",
+      description: "Desenvolvimento de sistemas e APIs REST.",
       icon: <HiCommandLine className="h-12 w-12" />,
     },
-    {
-      title: "Mobile",
-      description: "Desenvolvimento de aplicativos Android e iOS.",
-      icon: <HiDevicePhoneMobile className="h-12 w-12" />,
-    },
+    //{
+    //  title: "Mobile",
+    //  description: "Desenvolvimento de aplicativos Android e iOS.",
+    //  icon: <HiDevicePhoneMobile className="h-12 w-12" />,
+    //},
+    //{
+    //    title:"Linux",
+    //    description: "",
+    //    icon:"VscTerminalLinux",
+
+    //},
   ]
 
   return (
