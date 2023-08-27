@@ -4,6 +4,12 @@ export function Hero() {
     return (
         
         <section className="rounded-br-[80px] bg-gradient-to-tr from-black to-gray-900 text-white md:rounded-br-[180px]">
+
+<div class="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
+
+
+
+
                 <div className="container mx-auto max-w-4xl p-2 py-12 flex flex-col md:flex-row">
                     
                             <div className="basis-1/2">
@@ -24,7 +30,7 @@ export function Hero() {
                                             <div className="flex items-center justify-center md:justify-start gap-2">
                                                 <a href="#contact" className="underline font-bold text-white">Fale Comigo </a>
                                                 <span className="italic text-gray-500"> ou </span>
-                                                <a href="https://drive.google.com/file/d/1EF2WQaWOPbOfsSRset-7prJATXny52q5/view?usp=sharing" 
+                                                <a href="https://docs.google.com/document/d/1xfufVdAic8sEK7xtePoLU-2pXlQjGIPo/edit?usp=sharing&ouid=104513355899376583812&rtpof=true&sd=true" 
                                                 target="_blank"
                                                 className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"> 
                                                     <HiDownload />

@@ -4,7 +4,7 @@ import { Contact } from "./components/Contact"
 import { Projects } from "./components/Projects"
 import { Services } from "./components/Services"
 import { Skills } from "./components/Skills"
-import { Testimonials } from "./components/Testimonials"
+//import { Testimonials } from "./components/Testimonials"
 
 
 import './App.css'
@@ -19,7 +19,8 @@ function App() {
                 <Services />
                 <Projects />
                 <Skills />
-                <Testimonials />
+                {/* Esperanto ter comentários... 
+                <Testimonials />*/}
                 <Contact />
           </main>
     

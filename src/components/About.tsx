@@ -84,12 +84,10 @@ export function About() {
             </table>
               </div>      
               <div className="absolute -left-2 -top-4 h-20 w-20 rounded-lg display: flex
-                            bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"> 
-                                <img
-                              className="rounded-lg"
-                              src="images/ed.svg"
-                              alt="Ederson Sousa"
-                                  />
+                            bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56
+                            bg-[url(https://edersonsousa.github.io/images/ed.svg)] "> 
+                                
+                          
               </div>
               
             </div>

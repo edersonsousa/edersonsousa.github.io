@@ -32,6 +32,16 @@ export function Skills() {
 
   const skills = [
     {
+      name: "GNU/Linux",
+      icon: "images/linux.png",
+      level: 51,
+    },
+    {
+      name: "Python",
+      icon: "images/python.png",
+      level: 65,
+    },
+    {
       name: "HTML5/CSS3",
       icon: "images/html.svg",
       level: 65,
@@ -121,6 +131,12 @@ export function Skills() {
           </div>
         </div>
       </div>
+
+      <div class="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
+
+
+
+
     </section>
   )
 }
