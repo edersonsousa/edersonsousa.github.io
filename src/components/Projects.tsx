@@ -3,6 +3,15 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 export function Projects() {
   const projects = [
     {
+      title: "Escala SURE",
+      description: "...",
+      image:
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      link: "https://sure-u6yq.onrender.com/",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    
+    {
       title: "SPP",
       description: "Serviço do prontuário do paciente",
       image:
@@ -10,14 +19,7 @@ export function Projects() {
       link: "#",
       colSpan: "col-span-1",
     },
-    {
-      title: "Escala SURE",
-      description: "...",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
-      colSpan: "col-span-1 md:col-span-2",
-    },
+    
     /*{
       title: "PTEESSI",
       description: "Ainda em elaboração",

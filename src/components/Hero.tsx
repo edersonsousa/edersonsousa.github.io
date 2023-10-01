@@ -5,7 +5,7 @@ export function Hero() {
         
         <section className="rounded-br-[80px] bg-gradient-to-tr from-black to-gray-900 text-white md:rounded-br-[180px]">
 
-<div class="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
+<div className="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
 
 
 

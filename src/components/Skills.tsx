@@ -34,12 +34,12 @@ export function Skills() {
     {
       name: "GNU/Linux",
       icon: "images/linux.png",
-      level: 51,
+      level: 61,
     },
     {
       name: "Python",
       icon: "images/python.png",
-      level: 65,
+      level: 45,
     },
     {
       name: "HTML5/CSS3",
@@ -132,7 +132,7 @@ export function Skills() {
         </div>
       </div>
 
-      <div class="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
+      <div className="absolute left-0 -mt-[6px] h-3 w-48 rounded-r-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96"></div>
 
 
 

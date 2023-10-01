@@ -19,8 +19,7 @@ function App() {
                 <Services />
                 <Projects />
                 <Skills />
-                {/* Esperanto ter comentários... 
-                <Testimonials />*/}
+                {/* Esperanto ter comentários para... <Testimonials />*/}
                 <Contact />
           </main>
     
