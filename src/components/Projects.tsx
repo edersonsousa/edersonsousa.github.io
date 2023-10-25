@@ -80,7 +80,7 @@ export function Projects() {
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
-                  <p className=" mb-4 text-sm">{project.description}</p>
+                  <p className=" mb-4 text-sm"><center>{project.description}</center></p>
                   <a href={project.link} target="_blank">
                     <HiArrowTopRightOnSquare className="h-6 w-6" />
                   </a>

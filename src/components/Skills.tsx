@@ -8,23 +8,26 @@ export function Skills() {
     {
       name: "Análise e Desenvolvimento de Sistemas | FATEC - SP",
     },
+  ]
+  const educationsLinux = [
+    
     {
-      name: "[ LPI 101 ] Administração de Sistemas LINUX | Green Treinamento",
+        name: "[ LPI 101 ] Administração de Sistemas LINUX",
     },
     {
-      name: "[ LPI 102 ] Administração de Redes LINUX | Green Treinamento",
+        name: "[ LPI 102 ] Administração de Redes LINUX",
     },
     {
-      name: "[ LPI 201 ] Administração de Sistemas Linux Avançado | Green Treinamento",
+        name: "[ LPI 201 ] Administração de Sistemas Linux Avançado",
     },
     {
-      name: "[ LPI 202 ] Administração de Redes Linux Avançado | Green Treinamento",
+        name: "[ LPI 202 ] Administração de Redes Linux Avançado",
     },
     {
-      name: "Firewall - Segurança em Linux | Green Treinamento",
+        name: "Firewall - Segurança em Linux",
     },
     {
-      name: "SAMBA – Compartilhando Recursos no Linux | Green Treinamento",
+        name: "SAMBA – Compartilhando Recursos no Linux",
     },
 
   ]
@@ -95,7 +98,26 @@ export function Skills() {
                 {education.name}
               </div>
             ))}
+            <div className="mb-2 rounded-lg bg-white p-4 text-sm font-semibold text-gray-900"
+              >
+        <details>
+             <summary>[ GNU/Linux | Green Treinamento ]</summary>
+
+             {educationsLinux.map((educationsLinux, index) => (
+              <div
+                key={`educationsLinux-${index}`}
+                className="mb-2 rounded-lg bg-white p-4 text-sm font-semibold text-gray-900 visibility-hidden"
+                id="linux"
+              >
+                {educationsLinux.name}
+              </div>
+            ))}
+        </details>
+            </div>
+        
+            
           </div>
+          
           <div className="basis-1/2">
             <h3 className="mb-4 flex items-center gap-2 text-lg font-extrabold text-gray-700">
               <HiCodeBracketSquare className="h-8 w-8 text-blue-600" />
@@ -106,16 +128,16 @@ export function Skills() {
               {skills.map((skill, index) => (
                 <div
                   key={`skill-${index}`}
-                  className="flex flex-row items-center gap-2 md:flex-col md:items-start"
+                  className="flex flex-row items-center gap-2 md:flex-col md:items-start justify-content-center"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-white p-2">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-white p-2"> 
                     <img
                       src={skill.icon}
                       alt={skill.name}
                       className="h-10 w-10 rounded"
                     />
                   </div>
-                  <div className="w-full flex-grow">
+                  <div className="w-full flex-grow"> 
                     <h4 className="font-headlin text-gray-900">{skill.name}</h4>
                    {/* <div className="h-2.5 w-full rounded-full bg-white">
                      <div
